@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+background: rgba(255, 255, 255, 0.8);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.9px);
+-webkit-backdrop-filter: blur(7.9px);
+border: 1px solid rgba(255, 255, 255, 0.27);
+padding: 3rem;
+padding-bottom: 1.5rem;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.messageContainer {
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.button {
+  padding: .5rem 3rem;
+  border-radius: 30px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: lightgrey;
+}
+
+.button.hidden {
+  visibility: hidden;
+}

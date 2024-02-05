@@ -1,0 +1,32 @@
+.container {
+  margin: .5rem;
+}
+
+.option {
+  background-color: lightblue;
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: rgb(55, 184, 226);
+  color: white;
+}
+
+.correct {
+  background-color: rgb(37, 214, 152);
+  color: white;
+}
+
+.incorrect {
+  background-color: rgb(253, 83, 83);
+  color: white;
+}
+
+.disable {
+  pointer-events: none;
+}
