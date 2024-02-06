@@ -49,7 +49,7 @@ function App() {
       setScore((prev) => ({ points: prev.points + 1, lives: prev.lives }));
     } else {
       setMessage(`Incorrect, this country is\n ${selectedCountry.name.common}`);
-      setScore((prev) => ({ points: prev.points, lives: prev.lives-- }));
+      setScore((prev) => ({ points: prev.points, lives: prev.lives - 1 }));
     }
   };
 
