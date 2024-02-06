@@ -4,7 +4,7 @@ function CountryDisplay({ selectedCountry }) {
   console.log(selectedCountry);
   return (
     <div className={styles.container}>
-      <img src={selectedCountry?.flags?.png} alt="secret flag" className={styles.flag}/>
+      <img src={selectedCountry?.flags?.svg} alt="secret flag" className={styles.flag}/>
     </div>
   );
 }
