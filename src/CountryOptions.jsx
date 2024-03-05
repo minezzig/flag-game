@@ -6,6 +6,9 @@ function CountryOptions({
   checkAnswer,
   guess,
 }) {
+  // display each country option
+  // depending on correct/incorrect guess, color will be red/green
+  // if they got it wrong, the correct answer will be green
   return (
     <div className={styles.container}>
       {countryOptions.map((country) => (

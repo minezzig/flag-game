@@ -53,12 +53,14 @@ function App() {
     }
   };
 
+  // reset state variables and start new round
   const newRound = () => {
     setMessage("Choose a country\n ");
     setGuess(null);
     getCountryOptions(countries);
   };
 
+  // reset score and start new game
   const newGame = () => {
     setScore({ points: 0, lives: MAX_LIVES });
     newRound();
