@@ -72,7 +72,7 @@ function App() {
         <GameOver score={score} newGame={newGame} />
       ) : (
         <div className={styles.container}>
-          <h1>IDENTIFY THE FLAG</h1>
+          <h1>Flag Frenzy</h1>
           <Score score={score} MAX_LIVES={MAX_LIVES} />
           <CountryDisplay selectedCountry={selectedCountry} />
           <div className={styles.messageContainer}>{message}</div> {/* add a message component that uses correct state vs. message */}

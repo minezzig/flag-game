@@ -1,4 +1,4 @@
-# Flag Game
+# Flag Frenzy
 
 I had so much fun designing this project and I learned so much while I worked on it. It went through many iterations as I wanted to try out so many different tools and it ultimately slowed down my process. In the end, I focused on the functionality and am really happy with the results.  Although I am content at the moment, there are many things I would like to change and many features I would like to add on.
 
